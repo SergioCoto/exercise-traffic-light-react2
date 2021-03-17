@@ -11,3 +11,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+background-color: black;
+ width: 240px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.light {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 20px;
+}
+.red {
+    background-color: red;
+
+} 
+.yellow {
+    background-color: yellow;
+} 
+.green {
+    background-color: green;
+} 
+
+.red-selected {
+    background-color: red;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+} 
+.yellow-selected {
+    background-color: yellow;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+} 
+.green-selected {
+    background-color: green;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+} 
